@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: FK;
+  src: url(./fonts/FK-Screamer.ttf);
+}
+@font-face {
+  font-family: longbold;
+  src: url(./fonts/longbold.ttf);
+}
+@font-face {
+  font-family: medium;
+  src: url(./fonts/Medium.otf);
+}
+@font-face {
+    font-family: zentry;
+    src: url(./fonts/ZENTRY-Regular.ttf);
+  }
+@font-face {
+    font-family: robert;
+    src: url(./fonts/Roobert-Medium.ttf);
+  }

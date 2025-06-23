@@ -1,0 +1,61 @@
+.animated-tag {
+  z-index: 99;
+  position: absolute;
+  padding: 10px 20px;
+  white-space: nowrap;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  background-color: white;
+  color: #1f42e3;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.animated-tag:hover {
+  background-color: #1f42e3;
+  color: white;
+}
+
+.animated-tag-text {
+  position: relative;
+  z-index: 2;
+  font-family: robert;
+
+  font-size: 1.5vw;
+}
+
+.corner {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #1f42e3;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.corner.tl {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+}
+
+.corner.tr {
+  top: 0;
+  right: 0;
+  border-left: none;
+  border-bottom: none;
+}
+
+.corner.bl {
+  bottom: 0;
+  left: 0;
+  border-right: none;
+  border-top: none;
+}
+
+.corner.br {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+}

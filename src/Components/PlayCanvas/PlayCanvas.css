@@ -1,0 +1,19 @@
+.animation-canvas {
+    position: relative;
+    width: 80vw;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border: 1px solid #ccc; 
+  }
+  .score-display {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 4vw;
+    color: #1f42e3;
+    z-index: 10;
+    font-family: medium;
+  }
+
+  
+  

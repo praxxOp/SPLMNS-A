@@ -15,5 +15,25 @@
     font-family: medium;
   }
 
+  @media (max-width: 768px) {
+    .score-display {
+      font-size: 4vw;
+      top: 20px;
+      right: 20px;
+    }
+  
+    .animation-canvas {
+      width: 95vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .score-display {
+      font-size: 6vw;
+      top: 15px;
+      right: 15px;
+    }
+  }
+
   
   

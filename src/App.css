@@ -9,3 +9,15 @@
   font-family: robert;
   color: #1f42e3;
 }
+@media (max-width: 768px) {
+  .app-container p {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-container p {
+    font-size: 4.5vw;
+    text-align: center;
+  }
+}
